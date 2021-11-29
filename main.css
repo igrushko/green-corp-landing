@@ -155,6 +155,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 .footer__links a{
   margin-bottom:15px;
 }
