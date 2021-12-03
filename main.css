@@ -37,8 +37,8 @@ button {
   box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
   transition: background-color 0.3s ease-in;
   padding: 15px;
-
  }
+
 .about__image {
   width: 500px;
 }
@@ -48,6 +48,11 @@ button {
   animation: rotation 10s infinite linear;
   position: absolute;
     }
+
+  .animate__animated{
+    --animate-duration: 2s;
+  }
+  
 @keyframes rotation {
   0% {transform: rotate(0);
   }
@@ -223,7 +228,8 @@ footer {
   .about{
     flex-direction: column-reverse;
     padding-bottom: 50px;
-    padding-top: 50px
+    padding-top: 50px;
+    padding-left: 10px;       
   }
   
   footer{
@@ -263,4 +269,11 @@ footer {
 footer {
   margin: 45px 10px 45px 10px;
 }  
+
+header{
+  padding: 10px;
+}
+.form__submit{
+  margin-bottom: 40px;
+}
 }
