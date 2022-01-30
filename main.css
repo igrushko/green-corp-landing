@@ -68,6 +68,7 @@ button {
   background: url("img/back.png") no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .about h1 {
   font-size: 70px;
@@ -312,6 +313,14 @@ color: #ffb406;
   font-size: 15px;
   margin-left: 5px;
 }
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
   @media (min-width:720px) and (max-width:1024px) {
   .header__logo {
